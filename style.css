@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    height: 90vh;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 3em 1em;
+    margin: 2em;
+}
+
+.box {
+    background-color: #eee;
+    color: #333;
+    padding: 1em;
+    border-radius: 1em;
+}
