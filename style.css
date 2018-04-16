@@ -1,6 +1,7 @@
 body {
   background-color: #eee;
   font-family: sans-serif;
+  color: #333;
 }
 
 .grid {
@@ -13,7 +14,10 @@ body {
 
 .box {
     background-color: #fff;
-    color: #333;
     padding: 1em;
     /*border-radius: 1em;*/
+}
+
+.shadow {
+  box-shadow: 0 9px 9px -9px #666;
 }
